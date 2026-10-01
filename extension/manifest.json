@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Clear Site Data",
+  "short_name": "Clear Site Data",
+  "version": "1.0.0",
+  "description": "Wipe cookies, cache and storage for the site in the active tab. Pick exactly what to clear.",
+  "permissions": ["browsingData", "activeTab", "scripting", "storage"],
+  "action": {
+    "default_title": "Clear data for this site",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

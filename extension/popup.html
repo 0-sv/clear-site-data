@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Clear Site Data</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Clear site data</h1>
+      <p id="origin" class="origin">…</p>
+    </header>
+
+    <form id="form">
+      <label class="all">
+        <input type="checkbox" id="select-all" />
+        <span>Select all</span>
+      </label>
+
+      <fieldset id="types"></fieldset>
+
+      <label class="option">
+        <input type="checkbox" id="reload" />
+        <span>Reload tab afterwards</span>
+      </label>
+
+      <button type="submit" id="clear">Clear</button>
+      <p id="status" class="status" role="status"></p>
+    </form>
+
+    <script src="popup.js" type="module"></script>
+  </body>
+</html>
